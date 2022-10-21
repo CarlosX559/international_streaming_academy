@@ -245,11 +245,13 @@ a {
     font-size: 22px;
     margin: 0px;
 }
+
 .area_bg_color {
     display: flex;
     justify-content: center;
     width: 100%;
 }
+
 .bg_color {
     background-color: #FF5757;
     width: 100%;
@@ -258,6 +260,7 @@ a {
     z-index: -1;
     margin: 0px 60px;
 }
+
 .bg_color_2 {
     background-color: #FF5757;
     width: 100%;
@@ -266,6 +269,7 @@ a {
     z-index: -1;
     margin: 0px 60px;
 }
+
 #container_section_4 {
     background-image: url(img/bg_section_4.png);
     background-size: cover;
@@ -361,7 +365,9 @@ a {
     justify-content: flex-end;
     gap: 60px;
 }
-
+.title_comentario {
+    padding: 0px 10px;
+}
 .title_comentario h2 {
     font-size: 26px;
     font-weight: 500;
@@ -417,19 +423,23 @@ a {
     display: flex;
     align-items: center;
 }
+
 .area_container_5_int img {
     width: 100%;
-    max-width: 700px;
+    max-width: max-content;
 }
+
 .title_container_5 {
     width: 100%;
     max-width: 450px;
 }
+
 .title_container_5 h2 {
     font-size: 42px;
     color: #F7F9F8;
     font-weight: 400;
 }
+
 .title_container_5 h2 b {
     color: #FFCC4D;
 }
@@ -472,6 +482,7 @@ a {
     width: 100%;
     padding: 200px 0px 200px 0px;
 }
+
 .container_section_6_int {
     display: flex;
     justify-content: center;
@@ -479,9 +490,10 @@ a {
     max-width: 1320px;
     background: linear-gradient(335.91deg, rgba(0, 0, 0, 0.01) 8.79%, rgba(0, 0, 0, 0) 63.76%), linear-gradient(182.81deg, rgba(164, 164, 164, 0.2) -11.87%, rgba(230, 229, 229, 0.2) 13.19%, rgba(224, 217, 217, 0) 80.71%), #FBFBFB;
     box-shadow: inset -10px -10px 20px #FFFFFF, inset 10px 10px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 61px;
- 
+    border-radius: 60px;
+
 }
+
 .title_container_6 h2 {
     display: flex;
     align-items: flex-start;
@@ -490,12 +502,14 @@ a {
     font-size: 48px;
     margin: 0px;
 }
+
 .title_container_6 h2 b {
     font-family: PT Serif Caption;
     font-size: 88px;
     color: #FF5757;
     margin: 0px;
 }
+
 .area_container_6 {
     display: flex;
     justify-content: space-between;
@@ -504,11 +518,13 @@ a {
     flex-wrap: wrap;
     padding: 100px;
 }
+
 .area_faq {
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
+
 .faq {
     display: flex;
     align-items: center;
@@ -519,7 +535,9 @@ a {
     box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(0, 0, 0, 0.13);
     border-radius: 26px;
     padding: 20px 20px;
+    cursor: pointer;
 }
+
 .faq_int {
     display: flex;
     justify-content: space-between;
@@ -527,6 +545,7 @@ a {
     width: 100%;
     max-width: 400px;
 }
+
 .faq_int h2 {
     color: #000;
     font-size: 26px;
@@ -538,16 +557,19 @@ a {
 .faq svg {
     transition: all ease 400ms;
 }
+
 .fechar svg {
     transform: rotate(180deg);
 }
+
 .ativar {
     border-top: 6px solid #FF5757;
     padding: 35px 20px;
     height: fit-content;
     max-height: 100% !important;
-    
+
 }
+
 .faq_text {
     display: flex;
     overflow: hidden;
@@ -562,12 +584,98 @@ a {
     transition: all ease-in-out 400ms;
     margin-bottom: 60px;
 }
+
 .title_faq {
     width: 100%;
     max-width: 390px;
 }
+
 .title_faq h2 {
     font-weight: 400;
     font-size: 26px;
     margin: 0px;
 }
+
+
+#footer {
+    width: 100%;
+    background-color: #231F1D;
+}
+
+.container_footer {
+    display: flex;
+    padding: 160px 0px 180px 0px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container_footer_int {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1125px;
+}
+
+.area_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 960px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.title_footer h2 {
+    font-size: 38px;
+    font-weight: 400;
+    color: #F7F9F8;
+    margin: 0px;
+}
+
+.valores_isa {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 40px;
+    margin-top: 40px;
+}
+.valores_isa img {
+    max-width: 180px;
+    width: 100%;
+}
+
+.valores_texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.valores_texts h2 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.valores_texts p {
+    font-size: 34px;
+    color: #F7F9F8;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

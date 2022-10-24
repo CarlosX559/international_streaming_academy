@@ -484,7 +484,7 @@ a {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 200px 0px 200px 0px;
+    padding: 100px 0px 100px 0px;
 }
 
 .container_section_6_int {
@@ -672,7 +672,19 @@ a {
     color: #F7F9F8;
     margin: 0px;
 }
-
+.area_email {
+    width: 100%;
+    max-width: max-content;
+}
+.area_email h2 {
+    font-size: 34px;
+    color: #F7F9F8;
+    margin: 0px;
+}
+.area_email h2 a { 
+    color: #FFCC4D;
+    text-decoration: underline;
+}
 
 @media(max-width: 1024px) {
 
@@ -692,11 +704,6 @@ a {
     .sub_title_vsl h2 {
         font-size: 38px;
     }
-
-    .area_vsl_total iframe {
-        padding: 0px 20px;
-    }
-
 
     .container_section_3 {
         padding: 100px 0px 60px 0px;
@@ -776,19 +783,21 @@ a {
     }
     .container_footer_int {
         justify-content: center;
-        padding: 0px 20px;
     }
 
     .title_footer h2 {
         font-size: 28px;
+        padding: 0px 20px;
     }
 
     .valores_texts h2 {
         font-size: 32px;
+        padding: 0px 20px;
     }
 
     .valores_texts p {
         font-size: 26px;
+        padding: 0px 20px;
     }
 
     .area_footer {
@@ -799,6 +808,9 @@ a {
     .valores_isa {
         flex-direction: column;
         align-items: center;
+    }
+    .area_email h2 a { 
+      font-size: 22px;
     }
 }
 
@@ -947,5 +959,15 @@ a {
     }
     .btn_container_5 h2 {
         font-size: 20px;
+    }
+    .area_email h2 a { 
+        font-size: 16px;
+      }
+      .area_email h2 {
+        font-size: 26px;
+
+      }
+      .logo img {
+        max-width: 360px;
     }
 }

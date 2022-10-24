@@ -823,8 +823,14 @@ a {
     .area_vsl_total iframe {
         height: 325px;
     }
+    .area_vsl {
+        gap: 40px;
+    }
     .title_vsl h2 {
         font-size: 26px;
+    }
+    .container_section_3 {
+        padding: 60px 0px 60px 0px;
     }
     .title_texts_3 h2 {
         font-size: 30px;
@@ -840,6 +846,21 @@ a {
     }
     .area_infos {
         margin-top: 40px;
+    }
+
+    .title_comentario h2 {
+        font-size: 22px;
+    }
+
+    .area_texts_comentario {
+        gap: 40px;
+    }
+    .nome h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .curso h2 {
+        font-size: 18px;
     }
 
     .area_comentarios {

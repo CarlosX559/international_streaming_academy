@@ -829,11 +829,18 @@ a {
     .title_vsl h2 {
         font-size: 26px;
     }
+    .title_info h2 {
+        font-size: 26px;
+    }
+    .sub_title_info p {
+        font-size: 20px;
+    }
     .container_section_3 {
         padding: 60px 0px 60px 0px;
     }
     .title_texts_3 h2 {
         font-size: 30px;
+        text-align: center;
     }
     .sub_title_vsl h2 {
         font-size: 20px;
@@ -867,7 +874,8 @@ a {
         grid-template-columns: repeat(1, 1fr);
     }
     .title_container_4 h2 {
-        font-size: 28px;
+        font-size: 24px;
+        padding: 0px 20px;
     }
 
 
@@ -900,10 +908,10 @@ a {
     }
 
     .faq {
-        max-width: 325px;
+        max-width: 320px;
     }
     .faq_text {
-        max-width: 325px;
+        max-width: 320px;
     }
     .faq_int h2 {
         font-size: 22px;
@@ -917,6 +925,27 @@ a {
         font-size: 22px;
     }
     .valores_texts p {
+        font-size: 20px;
+    }
+    .valores_isa img {
+        max-width: 140px;
+    }
+    .btn_container_1 {
+        height: 50px;
+    }
+    .btn_container_1 h2 {
+        font-size: 20px;
+    }
+    .btn_info {
+        height: 50px;
+    }
+    .btn_info h2 {
+        font-size: 20px;
+    }
+    .btn_container_5 {
+        height: 50px;
+    }
+    .btn_container_5 h2 {
         font-size: 20px;
     }
 }

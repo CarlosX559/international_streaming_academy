@@ -179,7 +179,13 @@ a {
     margin: 0px;
     text-align: center;
 }
-
+.click h2 {
+    color: #FFCC4D;
+    font-size: 38px;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+}
 .area_vsl_total {
     display: flex;
     align-items: center;

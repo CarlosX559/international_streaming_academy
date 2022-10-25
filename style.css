@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     font-family: 'Roboto';
 }
@@ -12,10 +13,12 @@
     right: 20px;
     gap: 10px;
 }
+
 .flags img {
     width: 100%;
     max-width: 32px;
 }
+
 .container_politica {
     display: flex;
     width: 100%;
@@ -23,6 +26,7 @@
     align-items: center;
     height: 100%;
 }
+
 .container_politica_int {
     display: flex;
     justify-content: center;
@@ -32,6 +36,7 @@
     border: 1px solid #dee2e6;
     margin: 20px;
 }
+
 .container_politica_int h2 {
     font-family: 'Montserrat', 'sans-serif';
     font-size: 18px;
@@ -40,20 +45,24 @@
     font-weight: 400;
     padding: 0px 20px;
 }
+
 .container_politica_int h2 b {
     font-size: 26px;
 }
+
 .politica_privacidade h2 {
     font-size: 22px;
     color: #F7F9F8;
     margin: 0px;
 }
-.politica_privacidade h2 a{
+
+.politica_privacidade h2 a {
     font-size: 22px;
     color: #F7F9F8;
     margin: 0px;
-    text-decoration:underline;
+    text-decoration: underline;
 }
+
 body {
     margin: 0px;
     padding: 0px;
@@ -326,30 +335,37 @@ a {
     left: 0px;
     z-index: -1;
 }
+
 .vetor_1 img {
     margin-top: -100px;
 }
+
 .vetor_2 {
     position: absolute;
     right: 0px;
     z-index: -1;
 }
+
 .vetor_2 img {
     margin-top: -360px;
 }
-.vetor_1 img, .vetor_2 img {
+
+.vetor_1 img,
+.vetor_2 img {
     width: 150px;
 }
 
 .vetor_3 {
     position: absolute;
     right: 0px;
-    
+
 }
+
 .vetor_3 img {
     margin-top: -290px;
     width: 150px;
 }
+
 #container_section_4 {
     background-image: url(img/bg_section_4.png);
     background-size: cover;
@@ -751,16 +767,19 @@ a {
     color: #F7F9F8;
     margin: 0px;
 }
+
 .area_email {
     width: 100%;
     max-width: max-content;
 }
+
 .area_email h2 {
     font-size: 34px;
     color: #F7F9F8;
     margin: 0px;
 }
-.area_email h2 a { 
+
+.area_email h2 a {
     color: #FFCC4D;
     text-decoration: underline;
 }
@@ -857,9 +876,11 @@ a {
     .container_footer {
         padding: 80px 0px 80px 0px;
     }
+
     .logo img {
         max-width: 480px;
     }
+
     .container_footer_int {
         justify-content: center;
     }
@@ -888,15 +909,20 @@ a {
         flex-direction: column;
         align-items: center;
     }
-    .area_email h2 a { 
-      font-size: 22px;
+
+    .area_email h2 a {
+        font-size: 22px;
     }
-    .vetor_1 img, .vetor_2 img {
+
+    .vetor_1 img,
+    .vetor_2 img {
         width: 120px;
     }
+
     .vetor_1 img {
         margin-top: 0px;
     }
+
     .vetor_2 img {
         margin-top: 0px;
     }
@@ -907,50 +933,65 @@ a {
     .title_container_1 h2 {
         font-size: 32px;
     }
+
     .sub_titulo p {
         font-size: 20px;
     }
+
     .area_texts {
         padding: 0px 20px;
     }
+
     .area_vsl {
         padding: 0px 20px;
     }
+
     .area_vsl_total {
         height: auto;
         padding: 20px;
     }
+
     .area_vsl_total iframe {
         height: 325px;
     }
+
     .area_vsl {
         gap: 40px;
     }
+
     .title_vsl h2 {
         font-size: 26px;
     }
+
     .title_info h2 {
         font-size: 26px;
     }
+
     .sub_title_info p {
         font-size: 20px;
     }
+
     .container_section_3 {
         padding: 60px 0px 60px 0px;
     }
+
     .title_texts_3 h2 {
         font-size: 30px;
         text-align: center;
     }
+
     .sub_title_vsl h2 {
         font-size: 20px;
     }
+
     .area_texts_3 {
         gap: 30px;
     }
+
     .sub_title_texts_3 p {
         font-size: 20px;
     }
+
     .area_infos {
         margin-top: 40px;
     }
@@ -962,10 +1003,12 @@ a {
     .area_texts_comentario {
         gap: 40px;
     }
+
     .nome h2 {
         font-size: 20px;
         margin-bottom: 10px;
     }
+
     .curso h2 {
         font-size: 18px;
     }
@@ -973,6 +1016,7 @@ a {
     .area_comentarios {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .title_container_4 h2 {
         font-size: 24px;
         padding: 0px 20px;
@@ -982,12 +1026,15 @@ a {
     .container_section_5 {
         padding: 40px 0px 50px 0px;
     }
+
     .area_container_5_int {
         padding: 0px 20px;
     }
+
     .title_container_5 h2 {
         font-size: 28px;
     }
+
     .area_texts_5 p {
         font-size: 20px;
     }
@@ -995,13 +1042,16 @@ a {
     .bg_color_2 {
         height: 100px;
     }
+
     .container_section_6 {
         padding: 40px 0px 40px 0px;
     }
+
     .area_container_6 {
         padding: 40px 0px;
-        
+
     }
+
     .title_container_6 h2 {
         font-size: 32px;
         align-items: center;
@@ -1010,13 +1060,16 @@ a {
     .faq {
         max-width: 320px;
     }
+
     .faq_text {
         max-width: 320px;
     }
+
     .faq_int h2 {
         font-size: 22px;
         padding: 0px 10px;
     }
+
     .title_faq h2 {
         font-size: 20px;
     }
@@ -1024,47 +1077,63 @@ a {
     .title_footer h2 {
         font-size: 22px;
     }
+
     .valores_texts p {
         font-size: 20px;
     }
+
     .valores_isa img {
         max-width: 140px;
     }
+
     .btn_container_1 {
         height: 50px;
     }
+
     .btn_container_1 h2 {
         font-size: 20px;
     }
+
     .btn_info {
         height: 50px;
     }
+
     .btn_info h2 {
         font-size: 20px;
     }
+
     .btn_container_5 {
         height: 50px;
     }
+
     .btn_container_5 h2 {
         font-size: 20px;
     }
-    .area_email h2 a { 
+
+    .area_email h2 a {
         font-size: 16px;
-      }
-      .area_email h2 {
+    }
+
+    .area_email h2 {
         font-size: 26px;
 
-      }
-      .logo img {
+    }
+
+    .logo img {
         max-width: 360px;
     }
-    .vetor_1 img, .vetor_2 img {
+
+    .vetor_1 img,
+    .vetor_2 img {
         margin-top: 130px;
     }
-    .vetor_1 img, .vetor_2 img {
+
+    .vetor_1 img,
+    .vetor_2 img {
         width: 80px;
     }
+
     .vetor_3 img {
-       display: none;
+        display: none;
     }
 }

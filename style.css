@@ -1136,4 +1136,12 @@ a {
     .vetor_3 img {
         display: none;
     }
+
+    .politica_privacidade h2 {
+        font-size: 18px;
+    }
+
+    .politica_privacidade h2 a {
+        font-size: 18px;
+    }
 }

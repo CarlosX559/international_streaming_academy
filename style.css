@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
     font-family: 'Roboto';
 }
@@ -15,6 +15,44 @@
 .flags img {
     width: 100%;
     max-width: 32px;
+}
+.container_politica {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.container_politica_int {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1125px;
+    height: 100%;
+    border: 1px solid #dee2e6;
+    margin: 20px;
+}
+.container_politica_int h2 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 18px;
+    color: #576d96;
+    text-align: center;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.container_politica_int h2 b {
+    font-size: 26px;
+}
+.politica_privacidade h2 {
+    font-size: 22px;
+    color: #F7F9F8;
+    margin: 0px;
+}
+.politica_privacidade h2 a{
+    font-size: 22px;
+    color: #F7F9F8;
+    margin: 0px;
+    text-decoration:underline;
 }
 body {
     margin: 0px;
@@ -283,6 +321,35 @@ a {
     margin: 0px 60px;
 }
 
+.vetor_1 {
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}
+.vetor_1 img {
+    margin-top: -100px;
+}
+.vetor_2 {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+.vetor_2 img {
+    margin-top: -360px;
+}
+.vetor_1 img, .vetor_2 img {
+    width: 150px;
+}
+
+.vetor_3 {
+    position: absolute;
+    right: 0px;
+    
+}
+.vetor_3 img {
+    margin-top: -290px;
+    width: 150px;
+}
 #container_section_4 {
     background-image: url(img/bg_section_4.png);
     background-size: cover;
@@ -327,7 +394,7 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 0px 60px;
+    padding: 0px 30px;
 }
 
 .comentario_1 {
@@ -824,6 +891,15 @@ a {
     .area_email h2 a { 
       font-size: 22px;
     }
+    .vetor_1 img, .vetor_2 img {
+        width: 120px;
+    }
+    .vetor_1 img {
+        margin-top: 0px;
+    }
+    .vetor_2 img {
+        margin-top: 0px;
+    }
 }
 
 @media(max-width: 425px) {
@@ -981,5 +1057,14 @@ a {
       }
       .logo img {
         max-width: 360px;
+    }
+    .vetor_1 img, .vetor_2 img {
+        margin-top: 130px;
+    }
+    .vetor_1 img, .vetor_2 img {
+        width: 80px;
+    }
+    .vetor_3 img {
+       display: none;
     }
 }

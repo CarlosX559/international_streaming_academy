@@ -92,82 +92,84 @@
                                         allowfullscreen></iframe>-->
 
 
-                            <div id="player"></div>
-                            <script>
-                                // 2. This code loads the IFrame Player API code asynchronously.
-                                var tag = document.createElement('script');
+                                    <div id="player"></div>
+                                    <script>
+                                        // 2. This code loads the IFrame Player API code asynchronously.
+                                        var tag = document.createElement('script');
 
-                                tag.src = "https://www.youtube.com/iframe_api";
-                                var firstScriptTag = document.getElementsByTagName('script')[0];
-                                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                                        tag.src = "https://www.youtube.com/iframe_api";
+                                        var firstScriptTag = document.getElementsByTagName('script')[0];
+                                        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-                                // 3. This function creates an <iframe> (and YouTube player)
-                                //    after the API code downloads.
+                                        // 3. This function creates an <iframe> (and YouTube player)
+                                        //    after the API code downloads.
 
-                                var player;
-                                function onYouTubeIframeAPIReady() {
-                                    player = new YT.Player('player', {
-                                        videoId: 'TamS-8w71wQ',
-                                        playerVars: {'controls': 0, 'disablekb': 1, 'rel': 0, 'showinfo': 0, 'loading': 'auto', 'origin': 'https://www.youtube.com/embed/uiqugoFzk74'},
-                                        events: {
-                                            'onReady': onPlayerReady
+                                        var player;
+                                        function onYouTubeIframeAPIReady() {
+                                            player = new YT.Player('player', {
+                                                videoId: 'TamS-8w71wQ',
+                                                playerVars: { 'controls': 0, 'disablekb': 1, 'rel': 0, 'showinfo': 0, 'loading': 'auto', 'origin': 'https://www.youtube.com/embed/uiqugoFzk74' },
+                                                events: {
+                                                    'onReady': onPlayerReady
+                                                }
+                                            });
+
                                         }
-                                    });
 
-                                }
+                                        // 4. The API will call this function when the video player is ready.
+                                        function onPlayerReady(event) {
+                                            event.target.mute();
+                                            event.target.playVideo();
 
-                                // 4. The API will call this function when the video player is ready.
-                                function onPlayerReady(event) {
-                                    event.target.mute();
-                                    event.target.playVideo();
+                                        }
 
-                                }
+                                        function playClick() {
 
-                                function playClick() {
+                                            player.playVideo();
+                                            player.unMute();
 
-                                    player.playVideo();
-                                    player.unMute();
-
-                                    player.seekTo({
-                                        seconds: 1
-                                    });
+                                            player.loadVideoById({
+                                                videoId: 'TamS-8w71wQ',
+                                                startSeconds: 1
+                                            })
 
 
-                                    document.querySelector('.thumb_1').style.display = 'none';
-                                }
 
-                                function pauseClick() {
-                                    player.pauseVideo();
-                                    document.querySelector('.thumb_2').style.display = 'flex';
-                                }
+                                            document.querySelector('.thumb_1').style.display = 'none';
+                                        }
 
-                                function returnVideo() {
-                                    player.playVideo();
-                                    document.querySelector('.thumb_2').style.display = 'none';
-                                }
+                                        function pauseClick() {
+                                            player.pauseVideo();
+                                            document.querySelector('.thumb_2').style.display = 'flex';
+                                        }
 
-                            </script>
+                                        function returnVideo() {
+                                            player.playVideo();
+                                            document.querySelector('.thumb_2').style.display = 'none';
+                                        }
 
-                            <script
-                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                    </script>
 
-                            <div class="thumb_1" onclick="playClick()">
-                                <lottie-player
-                                    src="https://lottie.host/94dccd04-8b50-4a7f-a9e7-bb38a59483f3/PN1cB7JUbQ.json"
-                                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
-                                    autoplay></lottie-player>
+                                    <script
+                                        src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-                            </div>
+                                    <div class="thumb_1" onclick="playClick()">
+                                        <lottie-player
+                                            src="https://lottie.host/94dccd04-8b50-4a7f-a9e7-bb38a59483f3/PN1cB7JUbQ.json"
+                                            background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                                            autoplay></lottie-player>
 
-                            <div class="thumb_2" onclick="returnVideo()">
-                                <lottie-player
-                                    src="https://lottie.host/94dccd04-8b50-4a7f-a9e7-bb38a59483f3/PN1cB7JUbQ.json"
-                                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
-                                    autoplay></lottie-player>
+                                    </div>
 
-                            </div>
+                                    <div class="thumb_2" onclick="returnVideo()">
+                                        <lottie-player
+                                            src="https://lottie.host/94dccd04-8b50-4a7f-a9e7-bb38a59483f3/PN1cB7JUbQ.json"
+                                            background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                                            autoplay></lottie-player>
 
-                            <div class="glass" onclick="pauseClick()"></div>
+                                    </div>
+
+                                    <div class="glass" onclick="pauseClick()"></div>
                                 </div>
                             </div>
                         </div>

@@ -110,7 +110,7 @@
                                         function onYouTubeIframeAPIReady() {
                                             player = new YT.Player('player', {
                                                 videoId: 'uiqugoFzk74',
-                                                playerVars: {'controls': 0, 'disablekb': 1, 'rel': 0, 'showinfo': 0, 'loading': 'auto', 'origin': 'https://www.youtube.com/embed/uiqugoFzk74'},
+                                                playerVars: { 'controls': 0, 'disablekb': 1, 'rel': 0, 'showinfo': 0, 'loading': 'auto', 'origin': 'https://www.youtube.com/embed/uiqugoFzk74' },
                                                 events: {
                                                     'onReady': onPlayerReady
                                                 }
@@ -130,9 +130,10 @@
                                             player.playVideo();
                                             player.unMute();
 
-                                            player.seekTo({
-                                                seconds: 1
-                                            });
+                                            player.loadVideoById({
+                                                videoId: 'uiqugoFzk74',
+                                                startSeconds: 1
+                                            })
 
 
                                             document.querySelector('.thumb_1').style.display = 'none';
@@ -175,7 +176,7 @@
                         </div>
                     </div>
 
-                   
+
                 </div>
             </div>
         </div>

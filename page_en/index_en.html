@@ -43,7 +43,7 @@
                                 Understand how to turn scripts into videos that will tell a good story.
                             </p>
                         </div>
-                        <a href="#">
+                        <a href="https://pay.hotmart.com/R75971125B?checkoutMode=0&bid=1667050882196" class="move_btn">
                             <div class="btn_container_1">
                                 <h2>I want my course</h2>
                             </div>
@@ -72,7 +72,7 @@
                     </div>
 
                     <div class="click">
-                        <h2>Click on the video below</h2>
+                        <h2>Click on the video below to listen</h2>
                         <script
                             src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
@@ -80,14 +80,99 @@
                             background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
                         </lottie-player>
                     </div>
-
                     <div class="area_vsl_total">
-                        <iframe width="1120" height="630" src="https://www.youtube.com/embed/TamS-8w71wQ"
-                            title="Online course: 'From script to video: how to transform a story into a movie'"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                        <div class="area_player">
+                            <div class="up_container">
+                                <div class="player-wrapper">
+
+                                    <!-- <iframe width="1120" height="630" src="https://www.youtube.com/embed/TamS-8w71wQ"
+                                        title="Online course: 'From script to video: how to transform a story into a movie'"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>-->
+
+
+                            <div id="player"></div>
+                            <script>
+                                // 2. This code loads the IFrame Player API code asynchronously.
+                                var tag = document.createElement('script');
+
+                                tag.src = "https://www.youtube.com/iframe_api";
+                                var firstScriptTag = document.getElementsByTagName('script')[0];
+                                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                                // 3. This function creates an <iframe> (and YouTube player)
+                                //    after the API code downloads.
+
+                                var player;
+                                function onYouTubeIframeAPIReady() {
+                                    player = new YT.Player('player', {
+                                        videoId: 'TamS-8w71wQ',
+                                        playerVars: {'controls': 0, 'disablekb': 1, 'rel': 0, 'showinfo': 0, 'loading': 'auto', 'origin': 'https://www.youtube.com/embed/uiqugoFzk74'},
+                                        events: {
+                                            'onReady': onPlayerReady
+                                        }
+                                    });
+
+                                }
+
+                                // 4. The API will call this function when the video player is ready.
+                                function onPlayerReady(event) {
+                                    event.target.mute();
+                                    event.target.playVideo();
+
+                                }
+
+                                function playClick() {
+
+                                    player.playVideo();
+                                    player.unMute();
+
+                                    player.seekTo({
+                                        seconds: 1
+                                    });
+
+
+                                    document.querySelector('.thumb_1').style.display = 'none';
+                                }
+
+                                function pauseClick() {
+                                    player.pauseVideo();
+                                    document.querySelector('.thumb_2').style.display = 'flex';
+                                }
+
+                                function returnVideo() {
+                                    player.playVideo();
+                                    document.querySelector('.thumb_2').style.display = 'none';
+                                }
+
+                            </script>
+
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+                            <div class="thumb_1" onclick="playClick()">
+                                <lottie-player
+                                    src="https://lottie.host/94dccd04-8b50-4a7f-a9e7-bb38a59483f3/PN1cB7JUbQ.json"
+                                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                                    autoplay></lottie-player>
+
+                            </div>
+
+                            <div class="thumb_2" onclick="returnVideo()">
+                                <lottie-player
+                                    src="https://lottie.host/94dccd04-8b50-4a7f-a9e7-bb38a59483f3/PN1cB7JUbQ.json"
+                                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop
+                                    autoplay></lottie-player>
+
+                            </div>
+
+                            <div class="glass" onclick="pauseClick()"></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -105,7 +190,7 @@
                     <div class="sub_title_texts_3">
                         <p>
                             The International Streaming Academy is for everyone who wants to learn the main techniques
-                            of audiovisual production. Students, content creators, screenwriters, storytellers,
+                            of video production. Students, content creators, screenwriters, storytellers,
                             producers, actors, photographers and editors who wants to:
                         </p>
                     </div>
@@ -125,7 +210,7 @@
                             <div class="sub_title_info">
                                 <p>
                                     The course ‘From script to video: how to turn a story into a video’ is for those who
-                                    have an idea, want to see it in audiovisual format and need to understand the steps
+                                    have an idea, want to see it in video format and need to understand the steps
                                     in this process.
                                 </p>
                             </div>
@@ -133,7 +218,7 @@
                         </div>
                         <div class="info">
                             <div class="title_info">
-                                <h2>Start a career in audiovisual production</h2>
+                                <h2>Start a career in video production</h2>
                             </div>
 
                             <div class="icon">
@@ -166,7 +251,7 @@
 
                         </div>
                     </div>
-                    <a href="#">
+                    <a href="https://pay.hotmart.com/R75971125B?checkoutMode=0&bid=1667050882196" class="move_btn">
                         <div class="btn_info">
                             <h2>I want my course</h2>
                         </div>
@@ -316,7 +401,7 @@
                             has effective practical examples that make you assimilate and then you will be able to build
                             your video stories.
                         </p>
-                        <a href="#">
+                        <a href="https://pay.hotmart.com/R75971125B?checkoutMode=0&bid=1667050882196" class="move_btn">
                             <div class="btn_container_5">
                                 <h2>I want my course</h2>
                             </div>
@@ -366,7 +451,7 @@
                             <div class="title_faq">
                                 <h2>
                                     Yes. The course has easy-to-understand language, with practical examples.
-                                    The objective is to acquire autonomy to publish your audiovisual projects, either on
+                                    The objective is to acquire autonomy to publish your video projects, either on
                                     social media or for a client.
                                 </h2>
                             </div>
@@ -626,7 +711,7 @@
                             International Streaming Academy (ISA) is an online school with courses about streaming
                             production. ISA was founded in São Paulo-SP, Brazil by university professor Larissa Perfeito
                             who worked at the North American television network ABC and has more than 15 years of
-                            experience in teaching audiovisual production.
+                            experience in teaching video production.
                         </h2>
                     </div>
 

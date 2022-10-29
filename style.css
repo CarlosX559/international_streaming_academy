@@ -1041,6 +1041,10 @@ a {
 }
 
 @media(max-width: 425px) {
+    lottie-player {
+        width: 150px !important;
+        height: auto !important;
+    }
     #container_1 {
         padding: 0px;
         height: 556px;

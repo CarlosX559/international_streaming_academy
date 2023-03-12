@@ -69,7 +69,7 @@ body {
 }
 
 #container_1 {
-    background-image: url(img/bg_larissa.png);
+    background-image: url(img/bg_larissa.webp);
     width: 100%;
     background-size: cover;
     padding: 250px 0px 250px 0px;
@@ -476,7 +476,7 @@ a {
 }
 
 #container_section_4 {
-    background-image: url(img/bg_section_4.png);
+    background-image: url(img/bg_section_4.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -523,7 +523,7 @@ a {
 }
 
 .comentario_1 {
-    background-image: url(img/img_1.png);
+    background-image: url(img/img_1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -533,7 +533,7 @@ a {
 }
 
 .comentario_2 {
-    background-image: url(img/img_2.png);
+    background-image: url(img/img_2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -543,7 +543,7 @@ a {
 }
 
 .comentario_3 {
-    background-image: url(img/img_3.png);
+    background-image: url(img/img_3.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -553,7 +553,7 @@ a {
 }
 
 .comentario_4 {
-    background-image: url(img/img_4.png);
+    background-image: url(img/img_4.webp);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;

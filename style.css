@@ -1041,10 +1041,15 @@ a {
 }
 
 @media(max-width: 425px) {
-    lottie-player {
+    .thumb_1 lottie-player {
         width: 150px !important;
         height: auto !important;
     }
+    .thumb_2 lottie-player {
+        width: 150px !important;
+        height: auto !important;
+    }
+   
     #container_1 {
         padding: 0px;
         height: 556px;
@@ -1163,9 +1168,11 @@ a {
     .area_texts_5 p {
         font-size: 20px;
     }
-
+    .bg_color {
+        height: 50px;
+    }
     .bg_color_2 {
-        height: 100px;
+        height: 50px;
     }
 
     .container_section_6 {
@@ -1173,7 +1180,7 @@ a {
     }
 
     .area_container_6 {
-        padding: 40px 0px;
+        padding: 0px 0px;
 
     }
 
@@ -1187,7 +1194,7 @@ a {
     }
 
     .faq_text {
-        max-width: 320px;
+        max-width: 350px;
     }
 
     .faq_int h2 {
